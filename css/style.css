@@ -1,0 +1,292 @@
+/*公共样式*/
+*{padding:0;margin:0;}
+body,html{font-family:"Microsoft YaHei",SimHei;}
+
+/*整个页面的背景图*/
+.bg1{
+	background-image:url(../images/1.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg2{
+	background-image:url(../images/2.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg3{
+	background-image:url(../images/3.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg4{
+	background-image:url(../images/4.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg5{
+	background-image:url(../images/5.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg6{
+	background-image:url(../images/6.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg7{
+	background-image:url(../images/7.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg8{
+	background-image:url(../images/8.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg9{
+	background-image:url(../images/9.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg10{
+	background-image:url(../images/10.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg11{
+	background-image:url(../images/11.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+
+.bg12{
+	background-image:url(../images/12.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg13{
+	background-image:url(../images/13.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg14{
+	background-image:url(../images/14.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg15{
+	background-image:url(../images/15.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg16{
+	background-image:url(../images/16.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg17{
+	background-image:url(../images/17.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg18{
+	background-image:url(../images/18.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg19{
+	background-image:url(../images/19.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg20{
+	  background-image:url(../images/20.jpg) ;
+	  background-repeat:no-repeat;
+	  background-size: cover; 
+	  /* 把背景图像扩展至足够大，以使背景图像完全覆盖背景区域。 */}
+
+/*首页*/
+.title{
+	font-size:32px;
+	text-align:center;
+	
+	margin:50px 0 100px;
+	letter-spacing:5px;
+}
+.main{
+	width:500px;
+	margin:0 auto;
+}
+.main a,.gameDialog .close{
+	display:block;
+	width:150px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	border:2px #75db31 solid;
+	text-decoration:none;
+	font-size:18px;
+	
+	margin-top:11px;
+	border-radius:8px;
+	box-shadow:0 0 0 2px #fff inset;
+	background:linear-gradient(#eef8e8,#67c330);
+}
+.main a:hover{
+	border-color:#afeb85;
+	background:linear-gradient(180deg,#fff,#afeb85);
+}
+/*游戏说明*/
+.gameDialog{
+	position:absolute;
+	padding:20px;
+	width:480px;
+	height:447px;
+	line-height:1.6;
+	
+	
+	background:#fff;
+	z-index:9;
+	left:50%;
+	top:50%;
+	margin:-240px 0 0 -240px;
+}
+.gameDialog .info{
+	height:400px;
+	overflow:auto;
+}
+.gameDialog .close{
+	margin-left:150px;
+	border-color:#3d92b6;
+	background:linear-gradient(180deg,#ecf6f9,#59acd0);
+}
+.gameDialog .close:hover{
+	border-color:#6fb4d0;
+	background:linear-gradient(180deg,#fff,#97cbe1);
+}
+
+/**顶部关卡和主菜单**/
+.set-text{
+	position:relative;
+	text-align:center;
+	margin-top:20px;
+}
+.play-title{
+	display:inline-block;
+	padding:6px 40px;
+	border-radius:8px;
+	font-size:20px;
+	margin-left:25px;
+	border:1px #666 solid;
+	background:rgba(255,255,255,0.8);
+}
+.set-text a{
+	position:absolute;
+	top:2px;
+	right:30%;
+	display:block;
+	width:100px;
+	height:36px;
+	line-height:36px;
+	border:1px #ee7700 solid;
+	text-decoration:none;
+	border-radius:18px;
+	box-shadow:0 0 0 3px #feb367;
+	background:linear-gradient(to bottom right,#fff,#feb367);
+}
+.btnClick{
+	display:block;
+	width:200px;
+	height:200px;
+	background:url(../images/854565223523.png) no-repeat;
+	margin-left:60%;
+	margin-top:68px;
+}
+.btnDown{
+	background:url(../images/btn-bg-click.png) no-repeat;
+}
+.container{
+	position:fixed;
+	bottom:0;
+	left:0;
+	height:35%;
+	width:100%;
+}
+.stick{
+	position:absolute;
+	left:100px;
+	bottom:100%;
+	height:5px;
+	width:0;
+	background:#096;
+	transform:rotate(-90deg);
+	transform-origin:0 100%;
+	transition:transform 0.35s linear;
+}
+.stickDown{
+	transform:rotate(0deg);
+}
+.man{
+	position:absolute;
+	left:50px;
+	bottom:98%;
+	width:65px;
+	height:97px;
+}
+.man img{
+	position:absolute;
+	left:0;
+	top:0;
+	transition:transform 0.35s linear;
+}
+.man img.rotate{
+	transform:translate(0px,300px);
+	transform-origin:100% 100%;
+}
+.well-box{
+	position:absolute;
+	height:100%;
+}
+.well{
+	position:absolute;
+	height:100%;
+	background:#000;
+}
+/**成功或失败的提示框**/
+.dialog{
+	position:fixed;
+	width:480px;
+	left:50%;
+	margin-left:-240px;
+	top:230px;
+	padding-bottom:25px;
+	background:#3d3d3d;
+	z-index:100;
+	box-shadow:3px 3px 2px rgba(0,0,0,.5);
+	display: none;
+}
+.dialog p{
+	padding:0 20px;
+	color:#fff;
+	font-size:24px;
+	margin-top:15px;
+	line-height:1.8;
+}
+.dialog p.dialog-btn{
+	text-align:center;
+	margin-top:60px;
+}
+.dialog-btn a{
+	display:inline-block;
+	width:130px;
+	height:35px;
+	line-height:35px;
+	background:#cccdcd;
+	border-radius:10px;
+	text-decoration:none;
+	color: #000;
+}
+.dialog-btn a.play-agin{
+	margin-right:20px;
+}
+
